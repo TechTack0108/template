@@ -7,6 +7,16 @@
 }
 
 html {
-  font-size: 62.5%;   /* 1rem = 10px */
+  font-size: 62.5%;
+  /* 1rem = 10px */
   font-family: "Noto Sans JP", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
 }
