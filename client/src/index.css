@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 html {
@@ -12,11 +14,50 @@ html {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   cursor: pointer;
   border: none;
   outline: none;
   text-align: center;
-  text-decoration: none;
   border-radius: 5px;
+}
+
+@media (max-width: 1440px) {
+  h1 {
+    font-size: var(--font-size-superlarge);
+    font-weight: var(--font-weight-extraBold);
+    line-height: var(--line-height-hyperlarge);
+  }
+  h2 {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-extraBold);
+    line-height: var(--line-height-superlarge);
+  }
+  h3 {
+    font-size: var(--font-size-mediumlarge);
+    font-weight: var(--font-weight-extraBold);
+    line-height: var(--line-height-large);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-extraBold);
+    line-height: var(--line-height-superlarge);
+  }
+  h2 {
+    font-size: var(--font-size-mediumlarge);
+    font-weight: var(--font-weight-extraBold);
+    line-height: var(--line-height-large);
+  }
+  h3 {
+    font-size: var(--font-size-hypermedium);
+    font-weight: var(--font-weight-extraBold);
+    line-height: var(--line-height-mediumlarge);
+  }
 }

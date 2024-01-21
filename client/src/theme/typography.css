@@ -55,19 +55,33 @@
 :root {
   --font-primary: "Inter";
 
-  --font-size-hypersmall: 10px;
+  --font-size-hypersmall: 8px;
   --font-size-supersmall: 12px;
   --font-size-small: 14px;
-  --font-size-medium: 18px;
-  --font-size-supermedium: 25px;
-  --font-size-hypermedium: 36px;
-  --font-size-large: 51px;
-  --font-size-superlarge: 72px;
+  --font-size-medium: 20px;
+  --font-size-supermedium: 24px;
+  --font-size-hypermedium: 32px;
+  --font-size-mediumlarge: 40px;
+  --font-size-large: 48px;
+  --font-size-superlarge: 56px;
 
-  --font-weight-normal: 400;
+  --line-height-hypersmall: 8px;
+  --line-height-supersmall: 12px;
+  --line-height-small: 14px;
+  --line-height-medium: 20px;
+  --line-height-supermedium: 28px;
+  --line-height-hypermedium: 32px;
+  --line-height-mediumlarge: 40px;
+  --line-height-large: 48px;
+  --line-height-superlarge: 56px;
+  --line-height-hyperlarge: 62px;
+
+  --font-weight-extraBold: 800;
   --font-weight-bold: 700;
-  --font-weight-heavy: 800;
-  --font-weight-thin: 100;
+  --font-weight-semiBold: 600;
   --font-weight-medium: 500;
+  --font-weight-normal: 400;
   --font-weight-light: 300;
+  --font-weight-extraLight: 200;
+  --font-weight-thin: 100;
 }
